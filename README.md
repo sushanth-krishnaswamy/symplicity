@@ -1,2 +1,0 @@
-# symplicity
-simple polling app
