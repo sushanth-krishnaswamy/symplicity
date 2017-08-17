@@ -8,8 +8,9 @@ NOTE: This requires Python 3.x and Flask setup. To do this without affecting oth
       SETUP:
          a. Install virtualenv
          b. virtualenv -p python3 "folder name"
-         c. pip install flask
-         d. Clone the project and start using!
+         c. go to the created folder and type source bin/activate to activate virtualenv.
+         d. pip install flask
+         e. Clone the project and start using!
 
 To use the app:
 
