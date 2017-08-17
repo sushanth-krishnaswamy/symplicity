@@ -3,8 +3,8 @@ import os
 app = Flask(__name__)
  
 poll_data = {
-   'question' : 'Which web framework do you use?',
-   'fields'   : ['Flask', 'Django', 'TurboGears', 'web2py', 'pylonsproject']
+   'question' : 'Which is your favourite fruit Sam?',
+   'fields'   : ['Apple', 'Orange', 'Banana', 'Pineapple']
 }
 filename = 'data.txt'
  
