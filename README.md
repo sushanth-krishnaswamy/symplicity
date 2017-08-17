@@ -7,7 +7,7 @@ To use the app:
 
 1. Go to the poll_system directory
    
-        cd symplicity/poll_system
+        cd poll_symplicity/poll_system
         
 2. Run the poll.py app
 
