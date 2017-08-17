@@ -4,17 +4,16 @@
 <title>{{ data.question }}</title>
 </head>
 <body>
-<h1>Results for</h1>
+<h1>Thanks for voting for the question below! </h1>
 {{ data.question }}
  
-<ul>
-{% for e in votes %}
-  <li>{{ e }} {{ votes[e] }}</li>
-{% endfor %}
-</ul>
  <br>
  <br>
 
  <a href="{{url_for('root')}}"> Home </a>
+ <br>
+ <br>
+
+ <a href="{{url_for('show_results')}}"> Results </a>
 </body>
 </html>
