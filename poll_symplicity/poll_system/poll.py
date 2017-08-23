@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request
+from operator import itemgetter
+
 import os
 app = Flask(__name__)
  
@@ -32,7 +34,7 @@ def show_results():
     for line in f:
         vote = line.rstrip("\n")
         votes[vote] += 1
- 
+    votes_sorted = sorted(votes.items(), key=itemgetter(1), reverse = True)
     return render_template('results.html', data=poll_data, votes=votes)
  
  
